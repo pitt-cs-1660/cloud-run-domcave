@@ -128,8 +128,8 @@ async function vote(team) {
         },
         body: new URLSearchParams({team: team})
       }
-
-      const response = await fetch("http://localhost:9080", postReq);
+      
+      const response = await fetch(window.location.href, postReq);
       if (response.ok) {
         console.log(await response.json())
         window.alert("Vote successfully submitted!");
