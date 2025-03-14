@@ -7,7 +7,10 @@
  * ++++ ADD YOUR FIREBASE CONFIGURATION BELOW ++++
  * === Firebase Apikey and Domain ===
  */
-
+const firebaseConfig = {
+  apiKey: 'AIzaSyANxltSVZD58UKduQqRg_BQeK3tVtBqCc8',
+  authDomain: 'cloudrun-project-cs1660.firebaseapp.com',
+};
 
 /**
  * Firebase configuration
@@ -17,3 +20,5 @@ const config = {
   apiKey: 'AIzaSyDhwsk8AklD8Ipj26fVzYTMgrWvE8x1rgc',
   authDomain: 'cc-spring2025.firebaseapp.com',
 };
+
+// export default firebaseConfig;
